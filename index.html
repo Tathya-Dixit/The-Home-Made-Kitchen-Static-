@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome To The Home Made Kitchen</title>
+    <link href="https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body{
+            /* background-image: url('images\\bg1.jpg');
+            background-size: cover; */
+            background-color: #e52727c4;
+        }
+        .top h1{
+            /* color:aquamarine; */
+            font-family: 'Supermercardo one', cursive;
+        }
+        .navigation{
+            padding: 1%;
+            border: 3px solid white;
+            background-color: #f0f8ff99;
+            border-radius: 25px;
+        }
+        .navigation a{
+            text-decoration : none;
+            padding : 1%;
+            color : rgb(35, 99, 72);
+            font-family: 'Oswald',cursive;
+        }
+        .navigation .search{
+            display: inline;
+            float: right;
+        }
+        /* .navigation .search a img{
+            display : inline;
+            margin-left: 75%;
+            width: 15px;
+        } */
+        .navigation #search{
+            display: inline;
+            color: chocolate;
+            font-family: 'Supermercardo one',cursive;
+            font-size:medium;
+            padding-left : 6%;
+            margin : -1%;
+            border : 2px solid rosybrown;
+            border-radius : 100%;
+            text-align:left;
+            align-self: start;
+        }
+        .latest{
+            /* border: 2px solid green; */
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            flex-wrap: wrap;
+        }
+        .latestrec{
+            margin:5px;
+            background-color: rgb(255, 255, 255);
+            border: 5px solid rgb(151, 122, 231);
+            width: 405px;
+            height: 300px;
+            padding: 0.5%;
+        }
+        .latestrec h3{
+            color: black;
+            margin: 0%;
+            padding: auto;
+            float:left;
+        }
+        .latestrec img{
+            float: left;
+            width:100%;
+            height:90%;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="top">
+        <header>
+            <h1>The Home Made Kitchen</h1>
+            <nav class="navigation">
+                    <a href="">Menu</a>
+                    <a href="">Recipes</a>
+                    <a href="">About Us</a>
+                    <a href="">Contact Us</a>
+                    <div class="search">
+                        <input type="text" name="Search bar" id="search" placeholder="Search">
+                        <!-- <a href=""><img src="images\\searchico.png" alt=""></a> -->
+                    </div>
+            </nav>
+        </header>
+    </div>    
+    <div class="mid">
+        <h2 style="margin-left: 25px;">Here are some latest recipes</h2>
+        <div class="latest">
+            <div class="latestrec" id="recipe1">
+                <a href="">
+                    <h3>Shahi Paneer</h3>
+                    <img src="images\\ShahiPaneer.jpg" alt="Error">
+                </a>     
+            </div>
+            <div class="latestrec" id="recipe2">
+                <a href="">
+                    <h3>Chole Bhature</h3>
+                    <img src="images\\CholeBhature.jpg" alt="Error">
+                </a>
+            </div>
+            <div class="latestrec" id="recipe3">
+                <a href="">
+                    <h3>Raj Kachori</h3>
+                    <img src="images\\RajKachori.jpg" alt="Error">
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
