@@ -76,6 +76,45 @@
             width:100%;
             height:90%;
         }
+        .advsec{
+            border: 5px solid violet;
+            background-color: burlywood;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+        .advsec h2{
+            font-family: "Oswald",cursive;
+        }
+        .advice{
+            margin: 0%;
+            width: 60%;
+            font-size: x-large;
+        }
+        .advice p{
+            margin-top: 0%;
+        }
+        .foot{
+            margin-top: 10px;
+            border-top: 1px solid rgb(148, 147, 147);
+            display: flex;
+            justify-content: center;
+        }
+        .foot footer{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+        .foot p{
+            margin: 0%;
+            color: rgb(63, 65, 65);
+        }
+        .foot h3{
+            margin: 0%;
+            font-family: 'Oswald',cursive;
+        }
 
     </style>
 </head>
@@ -85,7 +124,7 @@
             <h1>The Home Made Kitchen</h1>
             <nav class="navigation">
                     <a href="">Menu</a>
-                    <a href="">Recipes</a>
+                    <a href="">Categories</a>
                     <a href="">About Us</a>
                     <a href="">Contact Us</a>
                     <div class="search">
@@ -96,27 +135,43 @@
         </header>
     </div>    
     <div class="mid">
-        <h2 style="margin-left: 25px;">Here are some latest recipes</h2>
-        <div class="latest">
-            <div class="latestrec" id="recipe1">
-                <a href="">
-                    <h3>Shahi Paneer</h3>
-                    <img src="images\\ShahiPaneer.jpg" alt="Error">
-                </a>     
-            </div>
-            <div class="latestrec" id="recipe2">
-                <a href="">
-                    <h3>Chole Bhature</h3>
-                    <img src="images\\CholeBhature.jpg" alt="Error">
-                </a>
-            </div>
-            <div class="latestrec" id="recipe3">
-                <a href="">
-                    <h3>Raj Kachori</h3>
-                    <img src="images\\RajKachori.jpg" alt="Error">
-                </a>
+        <div>
+            <h2 style="margin-left: 25px;">Here are some latest recipes</h2>
+            <div class="latest">
+                <div class="latestrec" id="recipe1">
+                    <a href="">
+                        <h3>Shahi Paneer</h3>
+                        <img src="images\\ShahiPaneer.jpg" alt="Error">
+                    </a>     
+                </div>
+                <div class="latestrec" id="recipe2">
+                    <a href="">
+                        <h3>Chole Bhature</h3>
+                        <img src="images\\CholeBhature.jpg" alt="Error">
+                    </a>
+                </div>
+                <div class="latestrec" id="recipe3">
+                    <a href="">
+                        <h3>Raj Kachori</h3>
+                        <img src="images\\RajKachori.jpg" alt="Error">
+                    </a>
+                </div>
             </div>
         </div>
+        <div class="advsec">
+            <h2>Advice of the week</h2>
+            <div class="advice">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo non placeat, nobis est nostrum libero natus architecto sunt accusantium dolor nulla rerum at explicabo minima nihil earum enim, minus praesentium quo neque necessitatibus, pariatur velit. Id at, esse quae harum maxime reprehenderit rerum consequatur eos dolore a ipsum fugiat nesciunt!</p>
+            </div>
+        </div>
+    </div>
+    <div class="foot">
+        <footer>
+            <h3>About US</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, libero.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem, ipsum dolor.</p>
+        </footer>
     </div>
 </body>
 </html>
